@@ -12,3 +12,12 @@ ng g c demo\buttons --dry-run --skip-tests --inline-style --inline-template
 ng g c demo\flexbox  --skip-tests 
 
 ng s -o
+
+npm i -s @angular/flex-layout
+
+ng g m contactmanager --dry-run
+
+ng g c contactmanager\contactmanager-app --dry-run --flat --skip-tests --inline-style --inline-template
+ng g c contactmanager\components\toolbar --skip-tests
+ng g c contactmanager\components\main-content --skip-tests
+ng g c contactmanager\components\sidenav --skip-tests
