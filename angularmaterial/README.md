@@ -21,3 +21,9 @@ ng g c contactmanager\contactmanager-app --dry-run --flat --skip-tests --inline-
 ng g c contactmanager\components\toolbar --skip-tests
 ng g c contactmanager\components\main-content --skip-tests
 ng g c contactmanager\components\sidenav --skip-tests
+
+
+ng g s contactmanager\services\user  --dry-run --skip-tests
+
+ng g class contactmanager\models\user  --dry-run --skip-tests
+ng g class contactmanager\models\note  --dry-run --skip-tests
